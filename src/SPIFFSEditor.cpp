@@ -267,7 +267,7 @@ const uint8_t edit_htm_gz[] PROGMEM = {
 };
 
 #define SPIFFS_MAXLENGTH_FILEPATH 32
-const char *excludeListFile = "/.exclude.files";
+const char *excludeListFile = "/.exclude.files.txt";
 
 typedef struct ExcludeListS {
     char *item;
